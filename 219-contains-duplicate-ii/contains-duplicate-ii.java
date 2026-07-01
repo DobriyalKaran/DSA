@@ -11,8 +11,7 @@ class Solution {
                 int val = Math.abs(valOfIdx - i);
                 if (val <= k) {
                     return true;
-                } else {
-                    map.remove(nums[i]);
+                } else { 
                     map.put(nums[i], i);
                 }
             }
